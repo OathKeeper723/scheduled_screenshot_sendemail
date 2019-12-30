@@ -65,7 +65,7 @@ def shot():
 
     ele = driver.find_element_by_id("xixi_data_screenshot")
 
-    ele.screenshot('waterQA.png')
+    ele.screenshot('test.png')
     print("over!")
     driver.quit();
     return 1;
